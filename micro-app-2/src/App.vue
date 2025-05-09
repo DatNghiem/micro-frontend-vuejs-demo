@@ -4,16 +4,19 @@
     <p>This is another standalone micro frontend application built with Vue.js.</p>
     <weather-widget></weather-widget>
     <chart-component></chart-component>
+    <event-tester></event-tester>
   </div>
 </template>
 
 <script>
 import WeatherWidget from './components/WeatherWidget.vue';
 import ChartComponent from './components/ChartComponent.vue';
+import EventTester from "./components/EventTester.vue";
 
 export default {
   name: 'MicroApp2',
   components: {
+    EventTester,
     WeatherWidget,
     ChartComponent
   }

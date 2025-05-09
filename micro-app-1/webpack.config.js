@@ -41,6 +41,10 @@ module.exports = {
             filename: 'remoteEntry.js',
             exposes: {
                 './MicroApp1': './src/bootstrap.js',
+                './TestEvent': './src/components/TestEvent.vue',
+            },
+            remotes: {
+                rootApp: 'rootApp@http://localhost:8080/remoteEntry.js',
             },
             shared: {
                 vue: {

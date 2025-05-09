@@ -7,6 +7,7 @@
       <router-link to="/">Home</router-link>
       <router-link to="/micro-app-1">Micro App 1</router-link>
       <router-link to="/micro-app-2">Micro App 2</router-link>
+      <router-link to="/event-monitor">Event Monitor</router-link>
     </div>
     <div class="content">
       <router-view></router-view>

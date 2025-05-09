@@ -4,16 +4,19 @@
     <p>This is a standalone micro frontend application built with Vue.js.</p>
     <counter-component></counter-component>
     <todo-list></todo-list>
+    <test-event></test-event>
   </div>
 </template>
 
 <script>
 import CounterComponent from './components/CounterComponent.vue';
 import TodoList from './components/TodoList.vue';
+import TestEvent from "./components/TestEvent.vue";
 
 export default {
   name: 'MicroApp1',
   components: {
+    TestEvent,
     CounterComponent,
     TodoList
   }
